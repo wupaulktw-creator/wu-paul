@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="ftl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#4f46e5" />
+    </linearGradient>
+    <linearGradient id="ftl-accent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#818cf8" />
+    </linearGradient>
+    <linearGradient id="ftl-gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+  </defs>
+  <!-- Background with rounded corners for desktop app icon -->
+  <rect width="512" height="512" rx="108" fill="url(#ftl-bg)" />
+  <rect x="16" y="16" width="480" height="480" rx="92" fill="none" stroke="#38bdf8" stroke-width="4" stroke-opacity="0.3" />
+  
+  <!-- Outer Bolt Hexagon & Cold Forging Punch Motif -->
+  <g transform="translate(256, 256)">
+    <!-- Hexagon Screw Head contour -->
+    <polygon points="0,-160 138.5,-80 138.5,80 0,160 -138.5,80 -138.5,-80" 
+             fill="#090d16" stroke="url(#ftl-accent)" stroke-width="14" stroke-linejoin="round" />
+    
+    <!-- Torx Star Pattern in Core -->
+    <path d="M 0 -85 
+             C 12 -85, 20 -50, 42 -72 
+             C 50 -64, 25 -32, 60 -35 
+             C 68 -24, 38 -4, 75 0 
+             C 68 24, 38 4, 60 35 
+             C 25 32, 50 64, 42 72 
+             C 20 50, 12 85, 0 85 
+             C -12 85, -20 50, -42 72 
+             C -50 64, -25 32, -60 35 
+             C -68 24, -38 4, -75 0 
+             C -68 -24, -38 -4, -60 -35 
+             C -25 -32, -50 -64, -42 -72 
+             C -20 -50, -12 -85, 0 -85 Z" 
+          fill="url(#ftl-gold)" stroke="#ffffff" stroke-width="4" stroke-linejoin="round" />
+
+    <!-- Center Industrial Punch Pin -->
+    <circle cx="0" cy="0" r="24" fill="#0f172a" stroke="#38bdf8" stroke-width="6" />
+  </g>
+
+  <!-- Industrial Badge Text Label -->
+  <text x="256" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="34" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="4">
+    FTL DESKTOP
+  </text>
+</svg>

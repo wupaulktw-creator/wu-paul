@@ -1,0 +1,8 @@
+{
+  "name": "FastenerTool Link V2 - 模具沖棒與螺絲工廠即時協同平台",
+  "description": "專為螺絲扣件廠與精密沖棒模具加工廠打造的即時協同管理平台，支援一衝/二衝/牙板規格線上詢價、即時加工進度追蹤、冷鍛衝次壽命預警與工程圖面即時協同。",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
