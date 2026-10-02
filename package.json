@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "desktop:run": "node desktop/desktop-runner.cjs",
     "clean": "rm -rf dist server.js",
-    "lint": "tsc --noEmit"
+    "lint": "tsc --noEmit",
+    "push": "node scripts/push-to-github.js"
   },
   "dependencies": {
     "@google/genai": "^2.4.0",
